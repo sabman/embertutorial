@@ -1,9 +1,7 @@
 Embertutorial.Location = DS.Model.extend({
   name: DS.attr('string'),
   description: DS.attr('string'),
-  deliveryAddress: DS.attr(''),
-  lat: DS.attr('decimal9'),
-  lat: DS.attr('decimal6'),
-  lng: DS.attr('decimal9'),
-  lng: DS.attr('decimal6')
+  deliveryAddress: DS.attr('string'),
+  lat: DS.attr('decimal'),
+  lng: DS.attr('decimal')
 });

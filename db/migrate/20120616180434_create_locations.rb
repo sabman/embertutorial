@@ -4,10 +4,8 @@ class CreateLocations < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.string :delivery_address
-      t.decimal9 :lat
-      t.decimal6 :lat
-      t.decimal9 :lng
-      t.decimal6 :lng
+      t.decimal :lat, precision: 9, scale: 5
+      t.decimal :lng, precision: 9, scale: 5
 
       t.timestamps
     end
