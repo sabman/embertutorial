@@ -12,3 +12,4 @@ gem "haml-rails", ">= 0.3.4", :group => :development
 gem "bootstrap-sass", ">= 2.0.3"
 gem "will_paginate", ">= 3.0.3"
 gem "ember-rails"
+gem 'ffaker'
