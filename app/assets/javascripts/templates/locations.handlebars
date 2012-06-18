@@ -1,5 +1,20 @@
 <h1>Locations</h1>
 
-<p>Your content here.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>lat</th>
+      <th>lng</th>
+    </tr>
+  </thead>
+  <tbody>
 
-{{outlet}}
+  {{#each locations}}
+    {{view Embertutorial.LocationView locationBinding="this"}}
+  {{/each}}
+  </tbody>
+</table>
+

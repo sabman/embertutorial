@@ -1,3 +1,4 @@
 Embertutorial.LocationView = Ember.View.extend({
-  templateName: 'location'
+  templateName: 'location',
+  tagName: 'tr'
 });

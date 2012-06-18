@@ -1,4 +1,4 @@
-Embertutorial.ApplicationController = Ember.ObjectController.extend({
+Embertutorial.ApplicationController = Ember.ArrayController.create({
   // Implement your controller here.
 });
 

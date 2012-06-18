@@ -1,4 +1,4 @@
-Embertutorial.Store = DS.Store.extend({
+Embertutorial.store = DS.Store.create({
   revision: 4,
   adapter: DS.RESTAdapter.create()
 });
